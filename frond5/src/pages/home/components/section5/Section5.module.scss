@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.main{
+    .mainText{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+        gap: 10px;
+        width: 100%;
+        p{
+            font-size: 50px;
+        }
+        span{
+            color: #a4a4a4;
+            font-family: "Raleway", sans-serif;
+        }
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+        gap: 10px;
+        width: 100%;
+        .imags{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            width: 70%;
+            img{
+                width: 28%;
+                height: 28%;
+            }
+        }
+    }
+}    

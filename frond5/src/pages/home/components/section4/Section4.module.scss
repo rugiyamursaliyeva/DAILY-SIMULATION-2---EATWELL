@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.main{
+    .mainText{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+        gap: 10px;
+        width: 100%;
+        p{
+            font-size: 50px;
+        }
+        span{
+            color: #a4a4a4;
+            font-family: "Raleway", sans-serif;
+        }
+    }
+    .data{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 200px;
+        width: 100%;
+        .card{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            width: 20%;
+            .image{
+                width: 90%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .cardText{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 10px;
+                gap: 10px;
+                width: 90%;
+                span{
+                    color: #FDA403;
+                    font-weight: 600;
+                }
+                p{
+                    text-align: center;
+                    color: #a4a4a4;
+                }
+                .btn{
+                    width: 100px;
+                    height: 30px;
+                    border: none;
+                    color: white;
+                    background-color: #FDA403;
+                    &:hover{
+                        background-color: #9f6701;
+                        transition: 0.4s;
+                    }
+                }
+            }
+            
+        }
+    }
+}
