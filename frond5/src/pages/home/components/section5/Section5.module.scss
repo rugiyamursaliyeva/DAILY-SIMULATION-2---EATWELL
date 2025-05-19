@@ -39,3 +39,34 @@
         }
     }
 }    
+
+@media screen and (min-width: 300px) and (max-width: 567px) {
+  .main {
+    .mainText {
+      p {
+        font-size: 28px;
+      }
+
+      span {
+        font-size: 14px;
+      }
+    }
+
+    .image {
+      flex-direction: column;
+      gap: 20px;
+      margin-bottom: 50px;
+
+      .imags {
+        width: 90%;
+        gap: 10px;
+        justify-content: center;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

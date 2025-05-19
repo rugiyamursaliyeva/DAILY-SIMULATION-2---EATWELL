@@ -68,3 +68,42 @@
         }
     }
 }
+@media screen and (min-width: 300px) and (max-width: 567px) {
+  .main .mainText {
+    p {
+      font-size: 30px;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .main .data {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+
+  .main .data .card {
+    width: 90%;
+  }
+
+  .main .data .card .image {
+    width: 100%;
+  }
+
+  .main .data .card .cardText {
+    width: 100%;
+    span {
+      font-size: 16px;
+    }
+    p {
+      font-size: 14px;
+    }
+    .btn {
+      width: 100%;
+      height: 36px;
+      font-size: 14px;
+    }
+  }
+}
